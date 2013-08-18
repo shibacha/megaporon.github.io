@@ -34,6 +34,10 @@ table {
   font: 100%;
 }
 
+ul li {
+  list-style: none;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -162,4 +166,126 @@ ul.posts span {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body, .wrapper {
+  height: 100%;
+}
+
+body {
+  background-color: #c5eeea;
+  /*background-color: #ededed;*/
+  /*ここで背景のベースカラーを指定する*/
+/*background-color: #e1fffd;*/
+ 
+/*ここでCSS3のグラデーションをつかってストライプのパターン・色を指定する
+（※色を変える場合は#fffffffの部分を変更）*/
+/*background-image: -webkit-gradient(linear, 0 0, 100% 0, color-stop(.5, #c6f2e7), color-stop(.5, transparent), to(transparent));*/
+ 
+/*ここでパターンの大きさを指定する
+（※ストライプの太さ）*/
+/*-webkit-background-size: 60px;*/
+color: #7f7f7f;
+
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.header {
+  margin: 70px auto 0;
+  width: 900px;
+  height: 150px;
+  /*background-color: #91b0ac;*/
+  background-color: #fff;
+  border-radius: 30px 30px 0 0;
+  /*box-shadow: 0px 0px 20px rgba(0,0,0,0.2);*/
+
+}
+
+.content {
+  margin: 0 auto;
+  padding: 10px 0 50px;
+  width: 900px;
+  height: auto;
+  /*background-color: #a6b07c;*/
+  background-color: #fff;
+    border-radius: 0 0 30px 30px;
+
+  /*box-shadow: 0px 0px 20px rgba(0,0,0,0.2);*/
+}
+
+.footer {
+  margin: 0 auto 0px;
+  width: 900px;
+  height: 100px;
+  /*background-color: #91b0ac;*/
+  background-color: #fff;
+  /*border-radius: 0 0 30px 30px;*/
+  /*box-shadow: 0px 0px 20px rgba(0,0,0,0.2);*/
+}
+
+.about {
+  padding: 50px 50px 10px;
+}
+.title {
+  /*text-align: ce*/
+  font-size: 1.5em;
+  color: #77bebf;
+}
+.txt {
+  padding-top: 10px;
+  font-size: 0.8em;
+  color: #7f7f7f;
+
+}
+.title-line {
+  border-bottom: 1px dashed #ddd;
+  margin: 0 30px;
+
+}
+
+.kiji {
+  padding: 0 50px; 
+}
+.pagelink {
+  padding: 50px 50px 0; 
+}
+.pagelink li {
+  float: left;
+}
+.copy {
+  padding: 30px 50px; 
+  font-size: 12px;
+}
+.kiji-day {
+  padding-bottom: 10px; 
+  font-size: 0.7em;
+  color: #989898;
+}
+.kiji-title {
+  padding-bottom: 20px; 
+  font-size: 1.1em;
+  color: #7f7f7f;
+  text-shadow: 1px 1px 3px #c9c9c9;
+}
+.kiji-txt {
+font-size: 0.9em;
+color: #7f7f7f;
 }
