@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "おわー"
+date:   2013-08-14 22:32:37
+categories: jekyll update
+---
+
+おわーっ
+えーっ
+
+ほんまに？
+
+(✌՞ټ՞)✌
+
+
+[jekyll-gh]: https://github.com/mojombo/jekyll
+[jekyll]:    http://jekyllrb.com
