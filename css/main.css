@@ -22,7 +22,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
+/*h1 { margin-bottom: 1em; }*/
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -226,7 +226,7 @@ color: #7f7f7f;
   height: auto;
   /*background-color: #a6b07c;*/
   background-color: #fff;
-    border-radius: 0 0 30px 30px;
+    /*border-radius: 0 0 30px 30px;*/
 
   /*box-shadow: 0px 0px 20px rgba(0,0,0,0.2);*/
 }
@@ -237,7 +237,7 @@ color: #7f7f7f;
   height: 100px;
   /*background-color: #91b0ac;*/
   background-color: #fff;
-  /*border-radius: 0 0 30px 30px;*/
+  border-radius: 0 0 30px 30px;
   /*box-shadow: 0px 0px 20px rgba(0,0,0,0.2);*/
 }
 
@@ -250,7 +250,7 @@ color: #7f7f7f;
   color: #77bebf;
 }
 .txt {
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   font-size: 0.8em;
   color: #7f7f7f;
 
@@ -263,9 +263,12 @@ color: #7f7f7f;
 
 .kiji {
   padding: 0 50px; 
+  text-align: left;
 }
 .pagelink {
   padding: 50px 50px 0; 
+  text-align: center;
+  margin: 0 auto;
 }
 .pagelink li {
   float: left;
