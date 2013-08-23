@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "サンプル"
+date:   2013-08-18 21:32:37
+categories: jekyll update
+---
+
+合っているのだろうか
