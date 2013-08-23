@@ -264,6 +264,7 @@ color: #7f7f7f;
 .kiji {
   padding: 0 50px; 
   text-align: left;
+  line-height: 20px;
 }
 .pagelink {
   padding: 50px 50px 0; 
