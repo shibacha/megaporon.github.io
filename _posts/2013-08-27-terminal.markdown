@@ -2,7 +2,7 @@
 layout: post
 title:  "ターミナルの使い方"
 date:   2013-08-27 20:02:50
-categories: jekyll update
+categories: jekyll
 ---
 
 今回の記事はMacのターミナルについてです。

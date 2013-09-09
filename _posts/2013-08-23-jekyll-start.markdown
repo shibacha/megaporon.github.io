@@ -2,7 +2,7 @@
 layout: post
 title:  "jekyllはじめました"
 date:   2013-08-23 22:32:37
-categories: jekyll update
+categories: jekyll
 ---
 
 jekyllはじめてみました。  
