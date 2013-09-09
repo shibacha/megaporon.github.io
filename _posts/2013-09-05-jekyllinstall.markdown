@@ -5,7 +5,7 @@ date:   2013-09-05 21:34:09
 categories: jekyll
 ---
 
-さっそくjekyllをインストールしたいと思います。
+さっそくjekyllをインストールしたいと思います。<br>
 
 [作業環境]<br>
 ・Mac OS X10.8.3<br>
