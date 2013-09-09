@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "jekyllのインストール"
-date:   2013-09-5 21:34:09
+date:   2013-09-05 21:34:09
 categories: jekyll
 ---
 
