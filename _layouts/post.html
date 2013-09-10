@@ -5,5 +5,9 @@ layout: default
 
 <div class="post">
 {{ content }}
-
+<ul class="pagelink cf">
+	<li><a href="{{ page.previous.url }}"><<前</a></li>
+    <li>　||　</li>
+    <li><a href="{{ page.next.url }}">次>></a></li>
+</ul>
 </div>
