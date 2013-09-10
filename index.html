@@ -4,5 +4,30 @@ title: おはなし
 ---
 
 <div id="home">
-  {{ content }}
+ <div class="content">
+        <div class="kiji">
+          {% for post in site.posts limit:1 %}
+          <!-- △postだといらない -->
+          <div class="kiji-day">{{ post.date | date_to_string }}</div>
+          <h2 class="kiji-title">{{ post.title }}</h2>
+          <div class="kiji-txt">
+            {{ post.content }}
+            {% endfor %} 
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="title-line"></div>
+        <div>
+          <ul class="pagelink cf">
+            <li><a href="{{  }}"><<前</a></li>
+            <li>　||　</li>
+            <li>次>></li>
+          </ul>
+        </div>
+        <!-- <div class="copy">
+          <p>Yurika Shiba<br /></p>
+          <p><a href="http://github.com/megaporon/">github.com/megaporon</a><br /></p>
+        </div> -->
+      </div>
 </div>
