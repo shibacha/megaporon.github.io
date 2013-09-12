@@ -1,40 +1,41 @@
 ---
 layout: default
 ---
- <!-- {{ post.content }} -->
+<!-- 記事 -->
 <div class="content">
-        <div class="kiji">
-          <div class="kiji-day">{{ page.date | date_to_string }}</div>
-          <h2 class="kiji-title">{{ page.title }}</h2>
-          <div class="kiji-txt">
-            {{ content }}
-          </div>
-        </div>
-      </div>
-      <div class="footer">
-        <div class="title-line"></div>
-        <div>
-          <ul class="pagelink cf">
-            <li>
-              {% if page.previous %}
-              <a href="{{ page.previous.url }}"><<前</a>
-              {% else %}
-              <<前
-              {% endif %}
-            </li>
-            <li>　||　</li>
-            <li>
-              {% if page.next %}
-              <a href="{{ page.next.url }}">次>></a>
-              {% else %}
-              次>>
-              {% endif %}
-            </li>
-          </ul>
-        </div>
-        <!-- <div class="copy">
-          <p>Yurika Shiba<br /></p>
-          <p><a href="http://github.com/megaporon/">github.com/megaporon</a><br /></p>
-        </div> -->
-      </div>
+  <div class="page-body">
+    <div class="page-date">{{ page.date | date_to_string }}</div>
+    <h2 class="page-title">{{ page.title }}</h2>
+    <div class="page-txt">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="deco-line"></div>
+  <div>
+    <ul class="pagelink cf">
+      <li>
+        {% if page.previous %}
+        <a href="{{ page.previous.url }}"><<前</a>
+        {% else %}
+        <<前
+        {% endif %}
+      </li>
+      <li>　||　</li>
+      <li>
+        {% if page.next %}
+        <a href="{{ page.next.url }}">次>></a>
+        {% else %}
+        次>>
+        {% endif %}
+      </li>
+    </ul>
+  </div>
+  <!-- <div class="copy">
+    <p>Yurika Shiba<br /></p>
+    <p><a href="http://github.com/megaporon/">github.com/megaporon</a><br /></p>
+  </div> -->
+</div>
 

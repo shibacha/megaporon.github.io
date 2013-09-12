@@ -1,36 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ site.name }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ site.name }}</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
-
-    <div class="wrapper">
-
-      <div class="header">
-        <div class="about">
-          <h1 class="title">{{ site.name }}</h1>
-          <p class="txt">{{ site.txt }}</p>
+      <div class="wrapper">
+        <!-- 全ページ共通 -->
+        <div class="header">
+          <div class="site-about">
+            <h1 class="title site-title"><a href="http://megaporon.github.io/">{{ site.name }}</a></h1>
+            <p class="site-txt">{{ site.txt }}</p>
+          </div>
+          <div class="deco-line"></div>
         </div>
-        <div class="title-line"></div>
-      </div>
-      <!-- △共通なのでここでいいかも -->
-
       {{content}}
-    </div>
-
-
-
-       
+      </div>
     </body>
 </html>
