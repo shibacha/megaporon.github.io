@@ -5,22 +5,22 @@ title: おはなし
 
 <div id="home">
  <div class="content">
-        <div class="kiji">
+        <div class="page-body">
           {% for post in site.posts limit:1 %}
           <!-- △postだといらない -->
-          <div class="kiji-day">{{ post.date | date_to_string }}</div>
-          <h2 class="kiji-title">{{ post.title }}</h2>
-          <div class="kiji-txt">
+          <div class="page-date">{{ post.date | date_to_string }}</div>
+          <h2 class="page-title">{{ post.title }}</h2>
+          <div class="page-txt">
             {{ post.content }}
             {% endfor %} 
           </div>
         </div>
       </div>
       <div class="footer">
-        <div class="title-line"></div>
+        <div class="deco-line"></div>
         <div>
           <ul class="pagelink cf">
-            <li><a href="{{  }}"><<前</a></li>
+            <li><a href="http://megaporon.github.io/jekyll/2013/08/27/terminal.html"><<前</a></li>
             <li>　||　</li>
             <li>次>></li>
           </ul>
