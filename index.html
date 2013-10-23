@@ -20,14 +20,62 @@ title: おはなし
         <div class="deco-line"></div>
         <div>
           <ul class="pagelink cf">
+            <!-- <li><a href="{{ paginator.page.url }}"><<前</a></li> -->
+            <li><a href="http://megaporon.github.io/jekyll/2013/09/05/jekyllinstall.html"><<前</a></li>
+          </ul>
+        </div>
+        <!-- <ul class="pagelink cf">
             <li><a href="http://megaporon.github.io/jekyll/2013/08/27/terminal.html"><<前</a></li>
             <li>　||　</li>
             <li>次>></li>
-          </ul>
-        </div>
+          </ul> -->
         <!-- <div class="copy">
           <p>Yurika Shiba<br /></p>
           <p><a href="http://github.com/megaporon/">github.com/megaporon</a><br /></p>
         </div> -->
-      </div>
+        <div>
+
+
+  <!-- Pagination links -->
+  <!-- <ul class="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <li><a href="{{site.url}}/blog/" class="previous"><span>あああ</span></a></li>
+      {% else %}
+        <li>
+      <a href="{{site.url}}/blog/page{{ paginator.previous_page }}" class="previous">
+        <span>いいい</span>
+      </a>
+    </li>
+      {% endif %}
+    {% else %}
+      <li class="disabled"><span>ううう</span></li>
+    {% endif %}
+    {% for count in (1..paginator.total_pages) %}
+      {% if count == paginator.page %}
+        {% assign active = 'class="active"' %}
+      {% else %}
+        {% assign active = '' %}
+      {% endif %}
+      {% if count == 1 %}
+        <li {{ active }}><a href="{{site.url}}/blog/">{{ count }}<span class="sr-only">(current)</span></a></li>
+      {% else %}
+        <li {{ active }}>
+      <a href="{{site.url}}/blog/page{{ count }}">{{ count }}<span class="sr-only">(current)</span></a></li>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next_page and paginator.next_page != paginator.page %}
+      <li><a href="{{site.url}}/blog/page{{ paginator.next_page }}" class="next"><span>えええ</span></a></li>
+    {% else %}
+      <li class="disabled"><span>おおお</span></li>
+    {% endif %}
+  </ul> -->
 </div>
+
+
+
+      </div>
+
+</div>
+
+
