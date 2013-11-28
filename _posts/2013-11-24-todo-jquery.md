@@ -20,7 +20,7 @@ jsの勉強にtodoアプリを作っているのですが、そこでつまづ�
   
   
   
-この４つの機能があるtodoアプリをHTML5とJavaScriot（jQuery）で作っていきます。 
+この４つの機能があるtodoアプリをHTML5とJavaScript（jQuery）で作っていきます。 
 todoアプリと言っても、chromeで動くwebページです。
     
   
