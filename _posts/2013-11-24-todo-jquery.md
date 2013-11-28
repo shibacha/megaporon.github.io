@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "todoアプリをつくってみる"
+title:  "todoアプリをつくってみる -jQuery導入編-"
 date:   2013-11-24 00:43:10
 categories: todoApp
 ---
@@ -57,5 +57,5 @@ jQuery2.xはIE8以下はサポートされていないバージョンで、古�
 
 ![](images/1124/06.png)  
 
-これでjQeryを使う準備はできました。  
+これでjQueryを使う準備はできました。  
 早速todoアプリを作っていきます。  
