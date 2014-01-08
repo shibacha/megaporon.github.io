@@ -1,81 +1,13 @@
 ---
 layout: default
-title: おはなし
+title: Your New Jekyll Site
 ---
 
 <div id="home">
- <div class="content">
-        <div class="page-body">
-          {% for post in site.posts limit:1 %}
-          <!-- △postだといらない -->
-          <div class="page-date">{{ post.date | date_to_string }}</div>
-          <h2 class="page-title">{{ post.title }}</h2>
-          <div class="page-txt">
-            {{ post.content }}
-            {% endfor %} 
-          </div>
-        </div>
-      </div>
-      <div class="footer">
-        <div class="deco-line"></div>
-        <div>
-          <ul class="pagelink cf">
-            <!-- <li><a href="{{ paginator.page.url }}"><<前</a></li> -->
-            <li><a href="http://megaporon.github.io/jekyll/2013/11/04/jekyll-edit.html"><<前</a></li>
-          </ul>
-        </div>
-        <!-- <ul class="pagelink cf">
-            <li><a href="http://megaporon.github.io/jekyll/2013/08/27/terminal.html"><<前</a></li>
-            <li>　||　</li>
-            <li>次>></li>
-          </ul> -->
-        <!-- <div class="copy">
-          <p>Yurika Shiba<br /></p>
-          <p><a href="http://github.com/megaporon/">github.com/megaporon</a><br /></p>
-        </div> -->
-        <div>
-
-
-  <!-- Pagination links -->
-  <!-- <ul class="pagination">
-    {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <li><a href="{{site.url}}/blog/" class="previous"><span>あああ</span></a></li>
-      {% else %}
-        <li>
-      <a href="{{site.url}}/blog/page{{ paginator.previous_page }}" class="previous">
-        <span>いいい</span>
-      </a>
-    </li>
-      {% endif %}
-    {% else %}
-      <li class="disabled"><span>ううう</span></li>
-    {% endif %}
-    {% for count in (1..paginator.total_pages) %}
-      {% if count == paginator.page %}
-        {% assign active = 'class="active"' %}
-      {% else %}
-        {% assign active = '' %}
-      {% endif %}
-      {% if count == 1 %}
-        <li {{ active }}><a href="{{site.url}}/blog/">{{ count }}<span class="sr-only">(current)</span></a></li>
-      {% else %}
-        <li {{ active }}>
-      <a href="{{site.url}}/blog/page{{ count }}">{{ count }}<span class="sr-only">(current)</span></a></li>
-      {% endif %}
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-    {% if paginator.next_page and paginator.next_page != paginator.page %}
-      <li><a href="{{site.url}}/blog/page{{ paginator.next_page }}" class="next"><span>えええ</span></a></li>
-    {% else %}
-      <li class="disabled"><span>おおお</span></li>
-    {% endif %}
-  </ul> -->
+  </ul>
 </div>
-
-
-
-      </div>
-
-</div>
-
-
